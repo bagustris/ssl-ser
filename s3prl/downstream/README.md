@@ -12,16 +12,22 @@ The basic idea of this toolkit is based on the following two premises:
 ```
 
 ## Structure
-A new datasets configuration should be located in the `datassets` directory. 
+A new datasets configuration should be located in this `downstream` directory. 
 
 ## Raw data
 Unlike datasets library (Tensorflow datasets, huggingface's datasets, Pytorch datasets), we require a raw data for data proccessing. Hence, the user can experiment with differenct format (.wav, .flac, .mp3) for augmentation or others.
 
 
-## Supported datasets
+## Already Supported datasets
+- [IEMOCAP](https://sail.usc.edu/iemocap/)  
+- [JTES](https://doi.org/10.1109/ICSDA.2016.7918977)  
+- [CMU-MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/)  
+- [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)  
+- [MSP-PODCAST](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)  
+
+## Planned datasets
 - [AESDD](http://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/)
 - [CaFE](https://zenodo.org/record/1478765)
-- [CMU-MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/)
 - [CREMA-D](https://github.com/CheyneyComputerScience/CREMA-D), [AudioWAV only](https://www.kaggle.com/ejlok1/cremad)
 - [DEMoS](https://zenodo.org/record/2544829)
 - [EMO-DB](http://emodb.bilderbar.info/)
@@ -31,12 +37,8 @@ Unlike datasets library (Tensorflow datasets, huggingface's datasets, Pytorch da
 - [EMOVO](http://voice.fub.it/activities/corpora/emovo/index.html)
 - [ESD](https://hltsingapore.github.io/ESD/)
 - [eNTERFACE](http://www.enterface.net/results/)
-- [IEMOCAP](https://sail.usc.edu/iemocap/)
-- [JTES](https://doi.org/10.1109/ICSDA.2016.7918977)
 - [JL-corpus](https://www.kaggle.com/tli725/jl-corpus)
 - [MELD](https://github.com/declare-lab/MELD/)
-- [MSP-IMPROV](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Improv.html)
-- [MSP-PODCAST](https://ecs.utdallas.edu/research/researchlabs/msp-lab/MSP-Podcast.html)
 - [0GVC](http://research.nii.ac.jp/src/en/OGVC.html)
 - [Portuguese](https://link.springer.com/article/10.3758/BRM.42.1.74)
 - [RAVDESS](https://zenodo.org/record/1188976)
@@ -51,6 +53,4 @@ Unlike datasets library (Tensorflow datasets, huggingface's datasets, Pytorch da
 - [VENEC](https://www.nature.com/articles/s41562-019-0533-6)
 
 ## S3PRL
-
-
-## Useful link
+https://github.com/s3prl/s3prl
