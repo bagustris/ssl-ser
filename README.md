@@ -269,4 +269,15 @@ If you find this toolkit useful, please consider citing following papers.
   doi={10.21437/Interspeech.2021-1775}
 }
 ```
-# ssl-ser
+### SSL SER (this repository)
+```
+@article{atmaja2022evaluating,
+  title={Evaluating Self-Supervised Speech Representations for Speech Emotion Recognition},
+  author={Atmaja, Bagus Tris and Sasou, Akira},
+  journal={IEEE Access},
+  volume={10},
+  pages={124396--124407},
+  year={2022},
+  publisher={IEEE}
+}
+```
