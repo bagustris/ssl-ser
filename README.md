@@ -1,3 +1,7 @@
+
+## Repository for the paper [Evaluating Self-Supervised Speech Representations for Speech Emotion Recognition](https://ieeexplore.ieee.org/document/9964237)
+
+
 <p align="center">
     <img src="./file/S3PRL-logo.png" width="900"/>
     <br>
